@@ -1,5 +1,3 @@
-package com.baidu.offer180530;
-
 public class CountingSort {
 	/*
 	 * input：A[1..n], 每个A[i]是在1到k范围的整数

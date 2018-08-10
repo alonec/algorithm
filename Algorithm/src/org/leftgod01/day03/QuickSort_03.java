@@ -5,7 +5,7 @@ package org.leftgod01.day03;
  * @Date: 2018/8/7 02:44
  * @Description: 随机快排
  */
-public class QuickSort03 {
+public class QuickSort_03 {
 
     // [...3,4,5,0,6,4...]
     public static void main(String[] args) {

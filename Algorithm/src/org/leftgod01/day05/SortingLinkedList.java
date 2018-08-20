@@ -16,9 +16,6 @@ import org.leftgod01.Node;
  */
 public class SortingLinkedList {
     public void solution(Node head){
-        Node h = new Node(null);
-        
-
 
     }
 }

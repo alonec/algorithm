@@ -17,7 +17,7 @@ public class ReverseInteger {
 
         if (x >= 0){
             while (x > 0){
-
+                    
             }
         }
         return 0;

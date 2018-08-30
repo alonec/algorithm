@@ -27,7 +27,7 @@ public class QuickSort_02 {
     public int[] partition(int [] arr, int L, int R){
         int less = L - 1;
         int more = R;
-        while ( L < R){     // 因为当等于基准时，不会交换。必须在循环外面将基准与大于区内最左边的数交换。所以不遍历到最后了，
+        while ( less < more){     // 因为当等于基准时，不会交换。必须在循环外面将基准与大于区内最左边的数交换。所以不遍历到最后了，
             if (arr[L] < arr[R]){   // cur < 基准  ： 小于区右移
                 swap(arr,++less, L++);
             }else if (arr[L] > arr[R]){

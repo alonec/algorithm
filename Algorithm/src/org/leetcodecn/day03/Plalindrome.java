@@ -9,8 +9,8 @@ package org.leetcodecn.day03;
  */
 public class Plalindrome {
     public static void main(String[] args) {
-        int n = 0;
-//        int n = -12;
+//        int n = 0;
+        int n = -1;
 //        int n = 123321;
 //        int n = 12321;
         System.out.println(method2(n));
@@ -19,21 +19,22 @@ public class Plalindrome {
 
     /**
      *  不用转字符
-     * @param n
+     * @param x
      */
-    private static boolean method2(int n){
+    private static boolean method2(int x){
+        if (x < 0) return false;
         int help = 1;
         int len = 1;
-        while(help <= n/10){
+        while(help <= x /10){
             help *= 10;
             len++;
         }
-        int m = n;
+        int m = x;
         for (; len > 0; len--){
-            if ( n%10 != m/help){
+            if ( x %10 != m/help){
                 return false;
             }
-            n /= 10;
+            x /= 10;
             m %= help;
             help /= 10;
         }
@@ -42,12 +43,12 @@ public class Plalindrome {
     /**
      * 暴力法：将输入的数转换为字符数组，再进行判断
      * 时间复杂度：O(n)
-     * @param n 输入的整数
+     * @param x 输入的整数
      */
-    private static boolean method1(Integer n){
-
-        if (n != null){
-            String s = n.toString();
+    private static boolean method1(Integer x){
+        if (x < 0) return false;
+        if (x != null){
+            String s = x.toString();
             char[] charInt = s.toCharArray();
             int length = charInt.length;
 

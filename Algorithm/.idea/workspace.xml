@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AimNum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/leftgod01/day07/AimNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Plalindrome.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day03/Plalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -49,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/jzoffer/Number_19.java" />
         <option value="$PROJECT_DIR$/src/org/jzoffer/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/org/jzoffer/Number_17.java" />
         <option value="$PROJECT_DIR$/src/org/jzoffer/Number_21.java" />
@@ -99,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/org/leftgod01/day03/QuickSort_02.java" />
         <option value="$PROJECT_DIR$/src/org/leetcodecn/day03/hhh.java" />
         <option value="$PROJECT_DIR$/src/org/leetcodecn/day03/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/leftgod01/day07/AimNum.java" />
         <option value="$PROJECT_DIR$/src/org/leetcodecn/day03/Plalindrome.java" />
       </list>
     </option>
@@ -116,8 +125,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="178" />
-    <option name="y" value="17" />
+    <option name="x" value="177" />
+    <option name="y" value="16" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -126,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,8 +165,7 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodecn" type="462c0819:PsiDirectoryNode" />
-              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="leftgod01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -170,6 +176,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,13 +210,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Plalindrome">
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leftgod01.day06.Demo2" />
+    <configuration name="AimNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leftgod01.day07.AimNum" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.leftgod01.day06.*" />
+          <option name="PATTERN" value="org.leftgod01.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,19 +307,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.PrintBinaryTreeWithoutRecursion" />
       <item itemvalue="Application.QuickSort_02" />
       <item itemvalue="Application.Plalindrome" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AimNum" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Plalindrome" />
+        <item itemvalue="Application.AimNum" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.QuickSort_02" />
         <item itemvalue="Application.PrintBinaryTreeWithoutRecursion" />
-        <item itemvalue="Application.Demo2" />
       </list>
     </recent_temporary>
   </component>
@@ -366,12 +374,13 @@
       <workItem from="1534842854353" duration="1664000" />
       <workItem from="1535002565702" duration="623000" />
       <workItem from="1535021333575" duration="622000" />
-      <workItem from="1535622059258" duration="13052000" />
+      <workItem from="1535622059258" duration="16479000" />
+      <workItem from="1535673920994" duration="1642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232145000" />
+    <option name="totallyTimeSpent" value="237214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,11 +406,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7104558" visible="true" weight="0.2962963" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7104558" visible="true" weight="0.2962963" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.32905984" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20308311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18565683" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -577,13 +586,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/jzoffer/Number_21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/jzoffer/Number_19.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -904,24 +906,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day03/hhh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day03/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day03/hhh.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day03/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day01/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -929,10 +915,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day03/Plalindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/org/leftgod01/day07/AimNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/day03/Plalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>

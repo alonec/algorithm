@@ -1,4 +1,4 @@
-package org.leetcodecn.day01;
+package org.leetcodecn.solution1_100;
 
 import org.leetcodecn.ListNode;
 
@@ -12,7 +12,7 @@ import org.leetcodecn.ListNode;
  *@author alonec
  *@date 2018/08/20
  */
-public class AddTwoNumbers {
+public class Num002 {
     public static void main(String[] args) {
 //        [2,4,3]
 //[5,6,4]

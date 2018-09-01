@@ -1,20 +1,14 @@
-package org.leetcode;
+package org.leetcodecn.solution101_200;
 
-class ListNode {
-  int val;
-  ListNode next;
-  ListNode(int x) {
-      val = x;
-      next = null;
-  }
-}
+
+import org.leetcodecn.ListNode;
 
 /** Sort a linked list in O(n log n) time using constant space complexity.
  * 题意：对一个链表进行排序，要求时间复杂度不超过O(n log n)
  *
  * 归并排序
  */
-public class x04_sort_list {
+public class Num143 {
     public static void main(String[] args) {
 
         ListNode head = new ListNode(7);

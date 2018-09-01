@@ -1,4 +1,4 @@
-package org.leetcodecn.day02;
+package org.leetcodecn.solution1_100;
 
 /**
  * describe: 7. 反转整数
@@ -10,7 +10,7 @@ package org.leetcodecn.day02;
  * @author alonec
  * @date 2018/08/21
  */
-public class ReverseInteger {
+public class Num007 {
     public int reverse(int x) {
         if (x == Integer.MIN_VALUE)  return 0;// 如果反转后的整数溢出，则返回 0。
         StringBuffer s = new StringBuffer();

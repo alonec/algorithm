@@ -1,4 +1,4 @@
-package org.leetcodecn.day03;
+package org.leetcodecn.solution1_100;
 
 /**
  * describe:  9. 回文数
@@ -7,7 +7,7 @@ package org.leetcodecn.day03;
  * @author alonec
  * @date 2018/08/30
  */
-public class Plalindrome {
+public class Num009 {
     public static void main(String[] args) {
 //        int n = 0;
         int n = -1;

@@ -1,4 +1,4 @@
-package org.leetcodecn.day01;
+package org.leetcodecn.solution1_100;
 
 /**
  * describe: 4. 两个排序数组的中位数
@@ -9,7 +9,7 @@ package org.leetcodecn.day01;
  *@author alonec
  *@date 2018/08/20
  */
-public class FindMedianSortedArrays {
+public class Num004 {
     public static void main(String[] args) {
         int[] nums1 = {1, 3};
 //        int[] nums1 = {1};

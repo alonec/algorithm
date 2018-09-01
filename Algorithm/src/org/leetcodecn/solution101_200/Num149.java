@@ -1,6 +1,11 @@
-package org.leetcode;
+package org.leetcodecn.solution101_200;
 
 import java.util.HashMap;
+
+/**
+ * 149. 直线上最多的点数
+ * 给定一个二维平面，平面上有 n 个点，求最多有多少个点在同一条直线上。
+ */
 class Point {
     int x;
     int y;
@@ -13,7 +18,6 @@ class Point {
         y = b;
     }
 }
-
 /**
  * 1. 列出所有点集（两个点的集合，不重复），用两个for循环
  * 2. 用HashMap<String, Integer> String是斜率 k（字符型，首先斜率是不能用double表示的，不准确，还要注意分母不能为零）
@@ -30,7 +34,7 @@ class Point {
  * 4. 判断该键为该斜率的value值和maxInner谁大，maxInner用来存储一次内循环的直线上最多的点
  * 5. maxPiontCount用来直线上最多的点
  */
-public class x03_Max_point_on_a_line{
+public class Num149 {
     public int maxPoints(Point[] points) {
         int length = points.length;
         int maxPoints = 0;

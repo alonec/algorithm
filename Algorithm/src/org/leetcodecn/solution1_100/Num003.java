@@ -1,4 +1,4 @@
-package org.leetcodecn.day01;/**
+package org.leetcodecn.solution1_100;/**
  * @Auther: chenxin
  * @Date: 2018/8/20 19:42
  * @Description:
@@ -13,7 +13,7 @@ import java.util.*;
  *@author alonec
  *@date 2018/08/20
  */
-public class LengthOfLongestSubstring {
+public class Num003 {
     public static void main(String[] args) {
 //        String s = "abcabcbb";
 //        String s = "bbbbb";

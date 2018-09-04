@@ -1,5 +1,7 @@
 package org.leetcodecn.solution1_100;
 
+import java.util.Stack;
+
 /**
  * describe: 7. 反转整数
  *
@@ -11,28 +13,20 @@ package org.leetcodecn.solution1_100;
  * @date 2018/08/21
  */
 public class Num007 {
+    /**
+     * 弹出和推入数字 & 溢出前进行检查
+     * @param x
+     * @return
+     */
     public int reverse(int x) {
-        if (x == Integer.MIN_VALUE) return 0; // 反转后溢出，返回0
-        int t = 1;
-        if (x < 0) {
-            t = -1;
-            x *= -1;
+        int rev = 0;
+        while (x != 0) {
+            int pop = x % 10;
+            x /= 10;
+            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) return 0;
+            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) return 0;
+            rev = rev * 10 + pop;
         }
-        String s = String.valueOf(x);
-        char[] chars = s.toCharArray();
-        StringBuffer sb = new StringBuffer();
-        if (t < 0) {
-            sb.append("-");
-        }
-        for (int i=chars.length - 1; i>=0; i--) {
-            sb.append(chars[i]);
-        }
-        long n = Integer.valueOf(sb.toString());
-        if (t > 0){
-            return n > Integer.MAX_VALUE ? 0 : (int)n;
-        }else {
-            return n< Integer.MIN_VALUE ? 0 : (int)n;
-        }
-
+        return rev;
     }
 }

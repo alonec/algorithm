@@ -17,23 +17,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Num142.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution101_200/Num142.java">
+      <file leaf-file-name="Num138.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num138.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Num086.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num086.java">
+      <file leaf-file-name="Num024.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num024.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="592">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Num025.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num025.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Num021.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num021.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,11 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/leftgod01/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/org/leftgod01/day05/Juzheng_Zhizi.java" />
-        <option value="$PROJECT_DIR$/src/org/leftgod01/day05/Juzhen_Zhizi.java" />
-        <option value="$PROJECT_DIR$/src/org/leftgod01/day05/Juzhen_Circle.java" />
-        <option value="$PROJECT_DIR$/src/org/leftgod01/day05/FindNumInMatrix.java" />
         <option value="$PROJECT_DIR$/src/org/leftgod01/day05/PrintTheCommonOfLinkedList.java" />
         <option value="$PROJECT_DIR$/src/org/leftgod01/Node.java" />
         <option value="$PROJECT_DIR$/src/org/leftgod01/day06/FindMidNum.java" />
@@ -114,6 +124,11 @@
         <option value="$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num007.java" />
         <option value="$PROJECT_DIR$/src/org/leetcodecn/solution101_200/Num142.java" />
         <option value="$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num086.java" />
+        <option value="$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num019.java" />
+        <option value="$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num138.java" />
+        <option value="$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num023.java" />
+        <option value="$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num024.java" />
+        <option value="$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num025.java" />
       </list>
     </option>
   </component>
@@ -140,6 +155,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,9 +199,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,9 +233,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Num086">
-    <configuration name="Num086" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcodecn.solution1_100.Num086" />
+  <component name="RunManager" selected="Application.Num019">
+    <configuration name="Num019" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcodecn.solution1_100.Num019" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -230,8 +245,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Num092" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.leetcodecn.solution1_100.Num092" />
+    <configuration name="Num086" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcodecn.solution1_100.Num086" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -316,19 +331,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Num092" />
       <item itemvalue="Application.Num160" />
       <item itemvalue="Application.Num141" />
       <item itemvalue="Application.Num142" />
       <item itemvalue="Application.Num086" />
+      <item itemvalue="Application.Num019" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Num019" />
         <item itemvalue="Application.Num086" />
         <item itemvalue="Application.Num142" />
         <item itemvalue="Application.Num141" />
         <item itemvalue="Application.Num160" />
-        <item itemvalue="Application.Num092" />
       </list>
     </recent_temporary>
   </component>
@@ -392,12 +407,15 @@
       <workItem from="1535965714408" duration="6988000" />
       <workItem from="1535976562042" duration="4530000" />
       <workItem from="1536052364371" duration="648000" />
-      <workItem from="1536061132338" duration="9508000" />
+      <workItem from="1536061132338" duration="12278000" />
+      <workItem from="1536122634376" duration="690000" />
+      <workItem from="1536130223955" duration="576000" />
+      <workItem from="1536133120790" duration="3779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293594000" />
+    <option name="totallyTimeSpent" value="301409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,12 +427,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1476" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48257372" weight="0.32478634" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.49932975" weight="0.32905984" />
@@ -423,11 +440,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7104558" visible="true" weight="0.21967655" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7104558" weight="0.23219374" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49865952" weight="0.32905984" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19534555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1735925" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,6 +453,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47654155" weight="0.43530998" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48257372" weight="0.32478634" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -671,45 +689,10 @@
           <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="179" />
+      <option name="time" value="180" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/AppInstall/JDK1.8/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="191" column="43" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/leftgod01/day04/BucketSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/collection/hashmap/Hash_IndexFor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/sort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/leftgod01/day05/Juzhen_Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/leftgod01/day05/Juzhen_Zhizi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -977,16 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num021.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -997,20 +970,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution101_200/Num142.java">
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num019.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num086.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution101_200/Num142.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num021.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num023.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num138.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num024.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/leetcodecn/solution1_100/Num025.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>

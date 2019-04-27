@@ -1,4 +1,4 @@
-package org.leftgod01;
+package org.leftgod;
 
 /**
  * 链表节点

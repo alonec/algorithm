@@ -1,8 +1,6 @@
-package org.leftgod01.day08;
+package org.leftgod.day08;
 
-import org.leftgod01.Node;
-
-import java.util.ArrayList;
+import org.leftgod.Node;
 
 /**
  * describe: 第一章第三题

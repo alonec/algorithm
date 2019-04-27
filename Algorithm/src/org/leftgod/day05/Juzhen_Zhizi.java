@@ -1,4 +1,4 @@
-package org.leftgod01.day05;
+package org.leftgod.day05;
 
 /**
  * @Auther: chenxin

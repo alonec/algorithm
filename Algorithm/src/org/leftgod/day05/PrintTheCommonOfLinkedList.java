@@ -1,6 +1,6 @@
-package org.leftgod01.day05;
+package org.leftgod.day05;
 
-import org.leftgod01.Node;
+import org.leftgod.Node;
 /**
  * @Auther: chenxin
  * @Date: 2018/8/13 21:43

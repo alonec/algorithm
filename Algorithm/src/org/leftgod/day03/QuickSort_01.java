@@ -1,4 +1,4 @@
-package org.leftgod01.day03;
+package org.leftgod.day03;
 
 public class QuickSort_01 {
     // [....2, 5, 0, 3, 7, 9, 8, 4....]

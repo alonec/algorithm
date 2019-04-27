@@ -1,4 +1,4 @@
-package org.leftgod01.day06;
+package org.leftgod.day06;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

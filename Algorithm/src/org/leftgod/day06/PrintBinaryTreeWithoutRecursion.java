@@ -1,6 +1,4 @@
-package org.leftgod01.day06;
-
-import sun.reflect.generics.tree.Tree;
+package org.leftgod.day06;
 
 import java.util.Stack;
 

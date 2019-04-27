@@ -1,4 +1,4 @@
-package org.leftgod01.day07;
+package org.leftgod.day07;
 
 import java.util.Arrays;
 

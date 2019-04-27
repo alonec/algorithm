@@ -1,4 +1,4 @@
-package org.leftgod01.day01;
+package org.leftgod.day01;
 
 /**
  * 八大排序之归并排序

@@ -1,10 +1,12 @@
 package org.jzoffer;
 
+import org.leetcodecn.ListNode;
+
 /**
  * 输入一个链表，输出该链表中倒数第k个结点。
  */
 public class Number_14 {
-    public ListNode FindKthToTail(ListNode head,int k) {
+    public ListNode FindKthToTail(ListNode head, int k) {
         if(k <1 ){    // if k<1,代表链表没有该节点，则返回null
             return null;
         }

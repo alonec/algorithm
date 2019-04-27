@@ -57,7 +57,6 @@ public class QuickSort {
         a[high] = temp;
         return i + 1;
     }
-
     public static void sort(int[] a, int low, int high) {
         if (high > low) {
             int mid = divide(a, low, high);

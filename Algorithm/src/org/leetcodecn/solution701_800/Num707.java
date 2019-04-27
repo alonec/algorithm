@@ -3,9 +3,6 @@ package org.leetcodecn.solution701_800;
 import org.leetcodecn.ListNode;
 import org.omg.PortableServer.LIFESPAN_POLICY_ID;
 
-import javax.print.attribute.standard.NumberUp;
-import java.util.concurrent.LinkedBlockingDeque;
-
 /**
  * describe:  设计链表
  * 在链表类中实现这些功能：
@@ -22,24 +19,26 @@ import java.util.concurrent.LinkedBlockingDeque;
 public class  Num707{
     public static void main(String[] args) {
         Num707 t = new Num707();
-        /*ListNode LinkedList = new ListNode(1);
-        LinkedList.next = new ListNode(2);
-        LinkedList.next.next = new ListNode(3);*/
-        t.addAtHead(1);
-        t.addAtTail(3);
+
         t.addAtIndex(1,2);
+        t.addAtIndex(0,1);
+
+        ListNode head = t.linkedList;
+        System.out.println(t.get(0));
         System.out.println(t.get(1));
-        t.deleteAtIndex(1);
-        System.out.println(t.get(1));
+        /*while (head != null) {
+            System.out.print(head.val + "  ");
+            head = head.next;
+        }*/
     }
-    private ListNode LinkedList;
+    public ListNode linkedList;
     /** Initialize your data structure here. */
     Num707() {
     }
     /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
     int get(int index) {
         int i = 0;
-        ListNode head = LinkedList;
+        ListNode head = linkedList;
         while (head != null && i<index) {
             head = head.next;
             i++;
@@ -52,12 +51,12 @@ public class  Num707{
     /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
     void addAtHead(int val) {
         ListNode head = new ListNode(val);
-        head.next = LinkedList;
-        LinkedList = head;
+        head.next = linkedList;
+        linkedList = head;
     }
     /** Append a node of value val to the last element of the linked list. */
     void addAtTail(int val) {
-        ListNode head = LinkedList;
+        ListNode head = linkedList;
         ListNode node = new ListNode(val);
         if (head != null) {
             while (head.next != null) {
@@ -65,48 +64,63 @@ public class  Num707{
             }
             head.next =  node;
         }else {  // 链表是空的
-            LinkedList = node;
+            linkedList = node;
         }
     }
 
     /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
     void addAtIndex(int index, int val) {
-        int i = 0;
         ListNode node = new ListNode(val);
-        ListNode head = LinkedList;
-        if (head != null && index==0) {
-            LinkedList = node;
-            return;
-        }
-        while (head != null && i<index - 1) {
-            head = head.next;
-            i++;
-        }
-        if (head != null && head.next == null) {
-            head.next = node;
-        }
-        else if (i == index - 1 && head != null && head.next != null) {
-            node.next = head.next;
-            head.next = node;
+        if (linkedList != null) {
+            if (index == 0) {
+                node.next = linkedList;
+                linkedList = node;
+            }else {
+                int i = 0;
+                ListNode head = linkedList;
+                if (head != null && index==0) {
+                    linkedList = node;
+                    return;
+                }
+                while (head != null && i<index - 1) {
+                    head = head.next;
+                    i++;
+                }
+                if (head != null && head.next == null) {
+                    head.next = node;
+                }
+                else if (i == index - 1 && head != null && head.next != null) {
+                    node.next = head.next;
+                    head.next = node;
+                }
+            }
+        }else {
+            linkedList = node;
         }
     }
 
     /** Delete the index-th node in the linked list, if the index is valid. */
     void deleteAtIndex(int index) {
-        ListNode head = LinkedList;
-        int i = 0;
-        while (head  != null && i<index - 1) {
-            head = head.next;
-            i++;
-        }
-        if (head == null) return;
-        if (head.next == null && index == 0) {//只有一个节点的情况
-            LinkedList = null;
-            return;
-        }
-        if (head.next != null) {
-            ListNode tmp = head.next;
-            head.next = tmp.next;
+        if (linkedList != null) {
+            if (index == 0) {
+                linkedList = linkedList.next;
+            }else {
+                ListNode head = linkedList;
+                int i = 0;
+                while (head  != null && i<index - 1) {
+                    head = head.next;
+                    i++;
+                }
+                if (head == null) return;
+                if (head.next == null && index == 0) {//只有一个节点的情况
+                    linkedList = null;
+                    return;
+                }
+                if (head.next != null) {
+                    ListNode tmp = head.next;
+                    head.next = tmp.next;
+                }
+            }
         }
     }
 }

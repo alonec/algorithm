@@ -13,6 +13,8 @@ public class ListNode {
     }
 }*/
 
+import org.leetcodecn.ListNode;
+
 /**
  * 时间复杂度：O(n+m)
  * 空间复杂度：O(1)

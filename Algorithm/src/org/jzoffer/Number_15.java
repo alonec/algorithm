@@ -1,5 +1,7 @@
 package org.jzoffer;
 
+import org.leetcodecn.ListNode;
+
 import java.util.Stack;
 
 /**
